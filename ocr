@@ -109,5 +109,5 @@ def plot_performance(gpu_times, cpu_times):
 
 if _name_ == "_main_":
     video_path = "path_to_video_file.mp4"
-    model_path = "path_to_gpu_model.pt"  # Replace with the path to your GPU-based model
+    model_path = "path_to_gpu_model.pt"  
     evaluate_models(video_path, model_path)
